@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+    
+}
+
+#background-video {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border: none;
+   text-decoration: none;
+}
+
+*::-webkit-scrollbar{
+   width: 10px;
+   height: 5px;
+}
+
+*::-webkit-scrollbar-track{
+   background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb{
+   background-color: blue;
+}
+
+
+.message{
+   position: sticky;
+   top:0; left:0; right:0;
+   padding:15px 10px;
+   background-color: rgba(0,0,0,.9);
+   text-align: center;
+   z-index: 1000;
+   box-shadow: brown;
+   color:magenta;
+   font-size: 20px;
+   text-transform: capitalize;
+   cursor: pointer;
+}
+
+.btn,
+.delete-btn,
+.option-btn{
+   display: inline-block;
+   padding:10px 30px;
+   cursor: pointer;
+   font-size: 18px;
+   color:black;
+   border-radius: 5px;
+   text-transform: capitalize;
+}
+
+.btn:hover,
+.delete-btn:hover,
+.option-btn:hover{
+   background-color: maroon;
+   color: white;
+}
+
+.btn{
+   background-color:  rgb(243, 214, 162);
+   margin-top: 10px;
+}
+
+.delete-btn{
+   background-color: rgb(243, 214, 162);
+}
+
+.option-btn{
+   background-color:orangered;
+}
+
+.form-container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 70px;
+}
+
+.form-container form{
+   width: 500px;
+   border-radius: 5px;
+   border:green;
+   padding:20px;
+   text-align: center;
+   background-color:green;
+}
+
+.form-container form h3{
+   font-size: 30px;
+   margin-bottom: 10px;
+   text-transform: uppercase;
+   color:lightsalmon;
+}
+
+.form-container form .box{
+   width: 100%;
+   border-radius: 5px;
+   border:orange;
+   padding:12px 14px;
+   font-size: 18px;
+   margin:10px 0;
+}
+
+.form-container form p{
+   margin-top: 20px;
+   font-size: 20px;
+   color:orange;
+}
+
+.form-container form p a{
+   color:red;
+}
+
+.form-container form p a:hover{
+   text-decoration: underline;
+}
+
+.container{
+   padding:0 20px;
+   margin:0 auto;
+   max-width: 1200px;
+   padding-bottom: 70px;
+}
+
+.container .heading{
+   text-align: center;
+   margin-bottom: 20px;
+   font-size: 45px;
+   text-transform: uppercase;
+   color:rgb(255, 255, 255);
+}
+
+.container .user-profile{
+   padding:20px;
+   text-align: center;
+   border:2px solid blanchedalmond;
+   background-color: rgba(0,0,0,.3);
+   filter: drop-shadow(5px 5px 5px rgb(238, 176, 115,.3));
+   border-radius: 10px;
+   margin:20px auto;
+   max-width: 500px;
+}
+
+.container .user-profile p{
+   margin-bottom: 10px;
+   font-size: 25px;
+   color:blanchedalmond;
+}
+
+.container .user-profile p span{
+   color:red;
+}
+
+.container .user-profile .flex{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap:10px;
+   align-items: flex-end;
+}
+
+.container .products .box-container{
+   display: flex;
+   flex-wrap: wrap;
+   gap:15px;
+   justify-content: center;
+   
+}
+
+.container .products .box-container .box{
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0.7);
+   margin: 10px;
+   border-radius: 5px;
+   box-shadow: lawngreen;
+   border:2px solid burlywood;
+   position: relative;
+   padding:20px;
+   width: 350px;
+}
+
+.container .products .box-container .box img{
+   height: 300px;
+   
+   filter: drop-shadow(5px 5px 15px rgba(234, 57, 57, 0.697));
+   transition: 0.3s;
+    
+}
+
+.container .products .box-container .box img:hover{
+    transform: scale(1.2);
+ }
+
+.container .products .box-container .box .name{
+   font-size: 30px;
+   border-radius: 5px;
+   color:rgb(255, 255, 255);
+   background-color: rgba(0,0,0,.1);
+   padding:5px 0;
+}
+
+.container .products .box-container .box .price{
+   position: absolute;
+   top:10px; left:10px;
+   padding:5px 10px;
+   border-radius: 5px;
+   background-color: var(--orange);
+   color:rgb(255, 255, 255);
+   font-size: 25px;
+}
+
+.container .products .box-container .box input[type="number"]{
+   margin:10px 0;
+   width: 100%;
+   border:2px solid burlywood;
+   border-radius: 5px;
+   font-size: 20px;
+   color:var(--black);
+   padding:12px 14px
+}
+
+.container .shopping-cart{
+   padding:20px 0;
+}
+
+.container .shopping-cart table{
+   width: 100%;
+   text-align: center;
+   border:3px solid white;
+   border-radius: 5px;
+   box-shadow: var(--box-shadow);
+   background-color: rgb(255, 255, 255,.8);
+}
+
+.container .shopping-cart table thead{
+   background-color:blanchedalmond;
+}
+
+.container .shopping-cart table thead th{
+   padding:10px;
+   color:var(--white);
+   text-transform: capitalize;
+   font-size: 20px;
+}
+
+.container .shopping-cart table .table-bottom{
+   background-color: blanchedalmond;
+}
+
+.container .shopping-cart table tr td{
+   padding:10px;
+   font-size: 20px;
+   color:maroon;
+}
+
+.container .shopping-cart table tr td:nth-child(1){
+   padding:0;
+}
+
+.container .shopping-cart table tr td input[type="number"]{
+   width: 80px;
+   border:var(--border);
+   padding:12px 14px;
+   font-size: 20px;
+   color:var(--black);
+}
+
+.container .shopping-cart .cart-btn{
+   margin-top: 10px;
+   text-align: center;
+}
+
+.container .shopping-cart .disabled{
+   pointer-events: none;
+   background-color: slategray;
+   opacity: .5;
+   user-select: none;
+}
+
+
+@media (max-width:1200px){
+   .container .shopping-cart{
+      overflow-x: scroll;
+   }
+
+   .container .shopping-cart table{
+      width: 1200px;
+   }
+}
+
+@media (max-width:450px){
+   .container .heading{
+      font-size: 30px;
+   }
+   .container .products .box-container .box img{
+      height: 200px;
+   }
+} 
+
+
+
+
+
+
+
+
+
+/* Style pour le formulaire de recherche */
+form {
+   display: inline-block;
+   margin-bottom: 20px;
+}
+
+input[type="text"] {
+   padding: 8px 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   width: 200px;
+   font-size: 16px;
+}
+
+input[type="submit"] {
+   padding: 8px 20px;
+   background-color: #4CAF50;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 16px;
+}
+
+/* Style pour le bouton de recherche */
+input[type="submit"]:hover {
+   background-color: #45a049;
+}
+
+/* Style facultatif pour le conteneur de la barre de recherche si nécessaire */
+.search-container {
+   text-align: center; /* Alignement du contenu au centre */
+}
+
+
+
+/* Style pour le bouton de rafraîchissement */
+.refresh-btn {
+   padding: 8px 20px;
+   background-color: #007bff; /* Couleur du fond */
+   color: white; /* Couleur du texte */
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 16px;
+   margin-left: 10px; /* Espacement à gauche */
+}
+
+/* Style pour le survol du bouton de rafraîchissement */
+.refresh-btn:hover {
+   background-color: #0056b3; /* Changement de couleur au survol */
+}
