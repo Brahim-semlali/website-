@@ -33,7 +33,7 @@
 
             <div class="ibra">
             <div class="patterns">
-  <svg width="100%" height="100%">
+  <svg width="100%" height="80%">
     <defs>
       <pattern id="polka-dots" x="0" y="0"                    width="100" height="100"
                patternUnits="userSpaceOnUse">
@@ -49,8 +49,8 @@
      
     
    
- <text x="50%" y="60%"  text-anchor="middle"  >
-   WINNERS
+ <text x="50%" y="55%"  text-anchor="middle"  >
+   IBRASHOP
  </text>
  </svg>
 </div>
@@ -115,9 +115,9 @@
         <h3>Contact Us</h3>
         <p>If you have any questions or concerns, feel free to contact us:</p>
         <ul>
-            <li>Email: admin@sportswear.com</li>
-            <li>Phone: +1 (123) 456-7890</li>
-            <li>Address: 123 Main Street, City, Country</li>
+            <li>Email: semlalibrahim34@gmail.com</li>
+            <li>Phone: +212671974041 </li>
+            <li>Address: Agadir Inchaden </li>
         </ul>
     </div>
     <p>&copy; 2024 Sport</p>

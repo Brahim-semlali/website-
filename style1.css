@@ -35,7 +35,7 @@ header {
 
 
 nav h2 {
-    margin-top: -3%;
+    margin-top: -10%;
 }
 
 nav ul {
@@ -123,11 +123,11 @@ footer {
 }
 
 .container {
-    height: 400px;
+    height: 450px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: start;
-    margin-top: -16%;
+    margin-top: -17%;
 }
 
 .card {
@@ -220,12 +220,12 @@ input:checked + label .description {
  svg text {
    font-family: Lora;
    letter-spacing: 10px;
-   stroke: #ffa5d8;
-   font-size: 150px;
+   stroke: #f40000;
+   font-size: 175px;
 
    stroke-width: 3;
   
-   animation: textAnimate 5s infinite alternate;
+   animation: textAnimate 7s infinite alternate;
    
  }
  
